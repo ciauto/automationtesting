@@ -1,0 +1,8 @@
+rough\ReadExcelFile.class
+regression\TC001verifyLogin.class
+smoke\TC002AddPayee.class
+regression\TC002AddPayee.class
+rough\Log4jDemo.class
+datadriventesting\TC001verifyLoginlocaldata.class
+smoke\TC001verifyLogin.class
+datadriventesting\TC001verifyLoginReadfromExcel.class
