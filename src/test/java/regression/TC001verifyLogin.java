@@ -11,12 +11,14 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 
 
 public class TC001verifyLogin {
 	
 			WebDriver driver;
+		
 			Logger log=LogManager.getLogger(TC001verifyLogin.class);
 
 		@BeforeMethod
@@ -27,6 +29,7 @@ public class TC001verifyLogin {
 			driver = new ChromeDriver();
 			log.info("chrome browser is invoked");
 			driver.get("http://zero.webappsecurity.com/");
+			
 			log.info("zero banking website is loaded");
 			driver.manage().window().maximize();
 			log.info("window is maximized");
